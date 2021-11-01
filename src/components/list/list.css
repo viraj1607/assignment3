@@ -1,0 +1,45 @@
+.list-container {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.list-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  background-color: lightblue;
+  width: 80%;
+  margin: 50px auto;
+  /* padding: 10px; */
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.list-container ul li {
+  margin: 10px;
+  font-size: 25px;
+  width: 500px;
+  text-align: center;
+  padding: 10px;
+  background-color: azure;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.list-container button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.list-container button:hover {
+  background-color: mediumblue;
+  color: aliceblue;
+}

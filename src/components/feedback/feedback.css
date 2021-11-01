@@ -1,0 +1,32 @@
+.form-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.form-container form input {
+  padding: 10px;
+  margin: 20px 10px;
+  height: 20px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: lightblue;
+  outline: none;
+  border: 1px solid black;
+}
+
+.form-container form button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.form-container form button:hover {
+  background-color: mediumblue;
+  color: aliceblue;
+}
